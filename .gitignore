@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Generated from the seed; rebuild with: uv run python -m novapay_agents.generate
+data/
+.env
