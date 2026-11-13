@@ -11,6 +11,10 @@ dependencies = [
     "mcp>=2.3.0",
 ]
 
+[project.optional-dependencies]
+# Only for the AWS Emulator mode (novapay_agents.aws_env). The default JSON mode needs none.
+aws = ["boto3>=1.40"]
+
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]
 build-backend = "uv_build"

@@ -1,0 +1,102 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1920' height='1266' viewBox='0 0 1920 1266' font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"><defs><linearGradient id='band' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#4f46e5'/><stop offset='0.55' stop-color='#9333ea'/><stop offset='1' stop-color='#db2777'/></linearGradient><filter id='sh' x='-10%' y='-10%' width='120%' height='130%'><feDropShadow dx='0' dy='3' stdDeviation='4' flood-color='#0f172a' flood-opacity='0.12'/></filter><marker id='a' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='7' markerHeight='7' orient='auto-start-reverse'><path d='M0,0 L10,5 L0,10 z' fill='#334155'/></marker></defs><rect width='1920' height='1266' fill='#ffffff'/><rect x='0' y='0' width='1920' height='150' fill='url(#band)'/>
+<text x='50' y='78' font-size='48' font-weight='800' fill='#ffffff' text-anchor='start'>novapay-agents: a seeded mock fintech estate for agent evals</text>
+<text x='50' y='122' font-size='25' font-weight='500' fill='#f5f3ff' text-anchor='start'>Planted problems and an answer key. Default source is JSON; optional AWS Emulator mode, all local.</text>
+<text x='1870' y='122' font-size='23' font-weight='600' fill='#fce7f3' text-anchor='end'>github.com/msaad7777/novapay-agents</text>
+<rect x='50' y='190' width='1820' height='242' rx='22' fill='#eef2ff'/>
+<rect x='74' y='208' width='414' height='38' rx='19' fill='#4338ca'/>
+<text x='281' y='235' font-size='22' font-weight='700' fill='#ffffff' text-anchor='middle'>Mock estate (seeded, scored)</text>
+<rect x='50' y='462' width='1820' height='242' rx='22' fill='#fdf4ff'/>
+<rect x='1274' y='480' width='572' height='38' rx='19' fill='#a21caf'/>
+<text x='1560' y='507' font-size='22' font-weight='700' fill='#ffffff' text-anchor='middle'>AWS Emulator mode (optional, local only)</text>
+<rect x='50' y='734' width='1820' height='242' rx='22' fill='#ecfeff'/>
+<rect x='74' y='752' width='308' height='38' rx='19' fill='#0e7490'/>
+<text x='228' y='779' font-size='22' font-weight='700' fill='#ffffff' text-anchor='middle'>Next (not built yet)</text>
+<path d='M628,318 L684,318' stroke='#334155' stroke-width='3.5' fill='none' marker-end='url(#a)'/>
+<path d='M960,398 L960,447 L230,447 L230,528' stroke='#334155' stroke-width='3.5' fill='none' marker-end='url(#a)'/>
+<path d='M385,590 L441,590' stroke='#334155' stroke-width='3.5' fill='none' marker-end='url(#a)'/>
+<path d='M750,590 L806,590' stroke='#334155' stroke-width='3.5' fill='none' marker-end='url(#a)'/>
+<path d='M1114,590 L1170,590' stroke='#334155' stroke-width='3.5' fill='none' marker-end='url(#a)'/>
+<path d='M1479,590 L1535,590' stroke='#334155' stroke-width='3.5' fill='none' marker-end='url(#a)'/>
+<path d='M1325,670 L1325,719 L504,719 L504,800' stroke='#334155' stroke-width='3.5' fill='none' marker-end='url(#a)'/>
+<path d='M1325,670 L1325,719 L1416,719 L1416,800' stroke='#334155' stroke-width='3.5' fill='none' marker-end='url(#a)'/>
+<g filter='url(#sh)'><rect x='80' y='260' width='544' height='138' rx='16' fill='#eff6ff' stroke='#2563eb' stroke-width='3'/></g>
+<path d='M80,276 a16,16 0 0 1 16,-16 h512 a16,16 0 0 1 16,16 v38 h-544 z' fill='#2563eb'/>
+<text x='352' y='298' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>generate.py</text>
+<text x='352' y='348' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>fixed seed: 15 resources,</text>
+<text x='352' y='379' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>costs, metrics, logs</text>
+<g filter='url(#sh)'><rect x='688' y='260' width='544' height='138' rx='16' fill='#f0fdfa' stroke='#0d9488' stroke-width='3'/></g>
+<path d='M688,276 a16,16 0 0 1 16,-16 h512 a16,16 0 0 1 16,16 v38 h-544 z' fill='#0d9488'/>
+<text x='960' y='298' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>data/novapay/*.json</text>
+<text x='960' y='348' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>default source:</text>
+<text x='960' y='379' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>fast, offline</text>
+<g filter='url(#sh)'><rect x='1296' y='260' width='544' height='138' rx='16' fill='#f0fdfa' stroke='#0d9488' stroke-width='3'/></g>
+<path d='M1296,276 a16,16 0 0 1 16,-16 h512 a16,16 0 0 1 16,16 v38 h-544 z' fill='#0d9488'/>
+<text x='1568' y='298' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>Answer key</text>
+<text x='1568' y='348' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>12 findings, 3 incidents,</text>
+<text x='1568' y='379' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>3 decoys; agents never see it</text>
+<g filter='url(#sh)'><rect x='80' y='532' width='301' height='138' rx='16' fill='#fff7ed' stroke='#ea580c' stroke-width='3'/></g>
+<path d='M80,548 a16,16 0 0 1 16,-16 h269 a16,16 0 0 1 16,16 v38 h-301 z' fill='#ea580c'/>
+<text x='230' y='570' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>Local endpoint?</text>
+<text x='230' y='620' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>refuses any endpoint</text>
+<text x='230' y='651' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>not on this machine</text>
+<g filter='url(#sh)'><rect x='445' y='532' width='301' height='138' rx='16' fill='#eff6ff' stroke='#2563eb' stroke-width='3'/></g>
+<path d='M445,548 a16,16 0 0 1 16,-16 h269 a16,16 0 0 1 16,16 v38 h-301 z' fill='#2563eb'/>
+<text x='595' y='570' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>Seed</text>
+<text x='595' y='620' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>real AWS APIs; times</text>
+<text x='595' y='651' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>moved into last 2 weeks</text>
+<g filter='url(#sh)'><rect x='810' y='532' width='301' height='138' rx='16' fill='#f0fdfa' stroke='#0d9488' stroke-width='3'/></g>
+<path d='M810,548 a16,16 0 0 1 16,-16 h269 a16,16 0 0 1 16,16 v38 h-301 z' fill='#0d9488'/>
+<text x='960' y='570' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>AWS Emulator</text>
+<text x='960' y='620' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>EC2, RDS, S3, SNS,</text>
+<text x='960' y='651' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>CloudWatch, Logs, SSM</text>
+<g filter='url(#sh)'><rect x='1174' y='532' width='301' height='138' rx='16' fill='#eff6ff' stroke='#2563eb' stroke-width='3'/></g>
+<path d='M1174,548 a16,16 0 0 1 16,-16 h269 a16,16 0 0 1 16,16 v38 h-301 z' fill='#2563eb'/>
+<text x='1325' y='570' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>Read back</text>
+<text x='1325' y='620' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>same shapes as JSON,</text>
+<text x='1325' y='651' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>times shifted back</text>
+<g filter='url(#sh)'><rect x='1539' y='532' width='301' height='138' rx='16' fill='#fff7ed' stroke='#ea580c' stroke-width='3'/></g>
+<path d='M1539,548 a16,16 0 0 1 16,-16 h269 a16,16 0 0 1 16,16 v38 h-301 z' fill='#ea580c'/>
+<text x='1690' y='570' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>Check</text>
+<text x='1690' y='620' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>every item compared</text>
+<text x='1690' y='651' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>with the JSON</text>
+<g filter='url(#sh)'><rect x='80' y='804' width='848' height='138' rx='16' fill='#f5f3ff' stroke='#7c3aed' stroke-width='3'/></g>
+<path d='M80,820 a16,16 0 0 1 16,-16 h816 a16,16 0 0 1 16,16 v38 h-848 z' fill='#7c3aed'/>
+<text x='504' y='842' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>Governance agent</text>
+<text x='504' y='892' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>FinOps findings from JSON or</text>
+<text x='504' y='923' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>the emulator, scored on the key</text>
+<g filter='url(#sh)'><rect x='992' y='804' width='848' height='138' rx='16' fill='#f5f3ff' stroke='#7c3aed' stroke-width='3'/></g>
+<path d='M992,820 a16,16 0 0 1 16,-16 h816 a16,16 0 0 1 16,16 v38 h-848 z' fill='#7c3aed'/>
+<text x='1416' y='842' font-size='27' font-weight='800' fill='#ffffff' text-anchor='middle'>On-call agent</text>
+<text x='1416' y='892' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>incident root cause from either</text>
+<text x='1416' y='923' font-size='22' font-weight='500' fill='#334155' text-anchor='middle'>source, scored on the key</text>
+<text x='50' y='1020' font-size='26' font-weight='800' fill='#0f172a' text-anchor='start'>Measured</text>
+<text x='190' y='1020' font-size='21' font-weight='500' fill='#334155' text-anchor='start'>AWS Emulator 1.0.338 in Docker on an M4 laptop. Round trip: seed, read back, compare.</text>
+<rect x='50' y='1040' width='345' height='120' rx='16' fill='#ffffff' stroke='#4f46e5' stroke-width='3'/>
+<rect x='50' y='1040' width='12' height='120' rx='6' fill='#4f46e5'/>
+<text x='228' y='1098' font-size='40' font-weight='800' fill='#4f46e5' text-anchor='middle'>15 / 15</text>
+<text x='228' y='1136' font-size='20' font-weight='600' fill='#334155' text-anchor='middle'>resources back unchanged</text>
+<rect x='419' y='1040' width='345' height='120' rx='16' fill='#ffffff' stroke='#9333ea' stroke-width='3'/>
+<rect x='419' y='1040' width='12' height='120' rx='6' fill='#9333ea'/>
+<text x='597' y='1098' font-size='40' font-weight='800' fill='#9333ea' text-anchor='middle'>10,416</text>
+<text x='597' y='1136' font-size='20' font-weight='600' fill='#334155' text-anchor='middle'>metric points, all match</text>
+<rect x='788' y='1040' width='345' height='120' rx='16' fill='#ffffff' stroke='#db2777' stroke-width='3'/>
+<rect x='788' y='1040' width='12' height='120' rx='6' fill='#db2777'/>
+<text x='966' y='1098' font-size='40' font-weight='800' fill='#db2777' text-anchor='middle'>31 / 31</text>
+<text x='966' y='1136' font-size='20' font-weight='600' fill='#334155' text-anchor='middle'>log events match</text>
+<rect x='1156' y='1040' width='345' height='120' rx='16' fill='#ffffff' stroke='#ea580c' stroke-width='3'/>
+<rect x='1156' y='1040' width='12' height='120' rx='6' fill='#ea580c'/>
+<text x='1335' y='1098' font-size='40' font-weight='800' fill='#ea580c' text-anchor='middle'>1.7 s</text>
+<text x='1335' y='1136' font-size='20' font-weight='600' fill='#334155' text-anchor='middle'>seed time</text>
+<rect x='1525' y='1040' width='345' height='120' rx='16' fill='#ffffff' stroke='#0d9488' stroke-width='3'/>
+<rect x='1525' y='1040' width='12' height='120' rx='6' fill='#0d9488'/>
+<text x='1704' y='1098' font-size='40' font-weight='800' fill='#0d9488' text-anchor='middle'>0.5 s</text>
+<text x='1704' y='1136' font-size='20' font-weight='600' fill='#334155' text-anchor='middle'>read back + compare</text>
+<rect x='50' y='1188' width='22' height='22' rx='5' fill='#2563eb'/>
+<text x='82' y='1206' font-size='20' font-weight='600' fill='#334155' text-anchor='start'>Code</text>
+<rect x='159.2' y='1188' width='22' height='22' rx='5' fill='#0d9488'/>
+<text x='191' y='1206' font-size='20' font-weight='600' fill='#334155' text-anchor='start'>Data store</text>
+<rect x='333.2' y='1188' width='22' height='22' rx='5' fill='#ea580c'/>
+<text x='365' y='1206' font-size='20' font-weight='600' fill='#334155' text-anchor='start'>Check / gate</text>
+<rect x='528.8' y='1188' width='22' height='22' rx='5' fill='#7c3aed'/>
+<text x='561' y='1206' font-size='20' font-weight='600' fill='#334155' text-anchor='start'>Model</text>
+<text x='1870' y='1206' font-size='20' font-weight='600' fill='#334155' text-anchor='end'>Python · boto3 · AWS Emulator · Docker · pytest</text></svg>
