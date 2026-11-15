@@ -1,0 +1,61 @@
+{
+ "tools": [
+  "budget_status",
+  "cost_summary",
+  "find_metric_peaks",
+  "get_commitments",
+  "get_metrics",
+  "get_request_status",
+  "get_security",
+  "list_inventory",
+  "propose_action",
+  "search_logs",
+  "terraform_drift"
+ ],
+ "policy": {
+  "cases": 36,
+  "correct": 36,
+  "by_expected": {
+   "needs_approval": 16,
+   "denied": 15,
+   "invalid": 5
+  },
+  "denied_or_invalid_that_reached_the_queue": 0,
+  "wrong": []
+ },
+ "snapshot_rule": {
+  "delete_before_snapshot_approved": "denied",
+  "delete_after_snapshot_approved": "needs_approval",
+  "snapshot_status": "approved",
+  "approved_by": "eval-reviewer"
+ },
+ "audit": {
+  "lines": 62,
+  "chain_ok": true,
+  "edited_line_caught": true,
+  "edited_line_reported": 5,
+  "deleted_line_caught": true
+ },
+ "evidence": {
+  "answer_key_items": 18,
+  "visible_through_tools": 18,
+  "missing": [],
+  "checks": 22
+ },
+ "latency_ms_stdio": {
+  "calls": 61,
+  "p50": 0.9,
+  "p95": 2.0,
+  "max": 51.3
+ },
+ "rate_limit": {
+  "limit": 3,
+  "decisions": [
+   "needs_approval",
+   "needs_approval",
+   "needs_approval",
+   "rate_limited",
+   "rate_limited"
+  ]
+ }
+}
